@@ -1,0 +1,73 @@
+/*
+  --------
+   COLORS
+  --------
+  #2B2E38
+  #778496
+  #B1C0CA
+  #D3DEE3
+  #F7FFFA
+  --------
+*/
+
+* {
+  font-family: "Courier New";
+  color: #F7FFFA;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2B2E38;
+  padding: 15px 25px;
+}
+
+header {
+  overflow: auto;
+  border: 1px solid #B1C0CA;
+}
+
+h1 {
+  letter-spacing: 5px;
+  font-size: 60px;
+}
+
+h2 {
+  letter-spacing: 1px;
+  font-size: 32px;
+}
+
+header p {
+  font-size: 18px;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.headshot {
+  background-image: url('./images/headshot_2.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  top: 20px;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+}
+
+.headshot_container {
+  float: left;
+  width: 25%;
+  position: relative;
+  height: 500px;
+}
+
+.header_text {
+  padding: 0 20px;
+  float: left;
+  width: 75%;
+  text-align: center;
+  border-right: 1px solid #B1C0CA;
+}
